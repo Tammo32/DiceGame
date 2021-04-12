@@ -1,0 +1,43 @@
+Test 01 - Adding Players (1.0 mark)
+Player: id= 1, name= The Gambler, bet amount= 10, roll result = null, game outcome = null, total credit points= 1000
+Player: id= 2, name= The Hustler, bet amount= 10, roll result = null, game outcome = null, total credit points= 700
+Player: id= 3, name= The Casual, bet amount= 10, roll result = null, game outcome = null, total credit points= 500
+You successfully added three players to the game (1.0 mark)
+
+Test 02 - Removing a Player (1.0 mark)
+Updated players:
+Player: id= 1, name= The Gambler, bet amount= 10, roll result = null, game outcome = null, total credit points= 1000
+Player: id= 3, name= The Casual, bet amount= 10, roll result = null, game outcome = null, total credit points= 500
+You successfully removed a player from the game (1 mark)
+
+Test 03 - Handling an Invalid Bet (1.0 mark)
+You successfully detected an invalid bet for insufficent credit scenario (1 mark)
+
+Test 04 - Handling a Valid Bet (0.5 marks)
+The Casual successfully made a bet (0.5 marks)
+
+Test 05 - Test roll() Precondition (0.5 marks)
+Succesfully detected illegal input with assertion (0.5 marks)
+
+Test 06 - Test First Roll for The Casual (1.5 marks)
+CALLBACK: playerRollOutcome() called for test #6, result=Dice 1: 5, Dice 2: 5 ... Total: 10
+CALLBACK: houseRollOutcome() called for test #6, result=Dice 1: 5, Dice 2: 5 ... Total: 10
+CALLBACK: gameResult() called for test #6, game outcome =DREW
+Player: id= 3, name= The Casual, bet amount= 100, roll result = Dice 1: 5, Dice 2: 5 ... Total: 10, game outcome = DREW, total credit points= 500
+You completed a successful roll with The Casual's point balances updated correctly (1.5 marks)
+
+Test 07 - Test Second Roll for the Gambler (1.5 marks)
+CALLBACK: playerRollOutcome() called for test #7, result=Dice 1: 5, Dice 2: 6 ... Total: 11
+CALLBACK: houseRollOutcome() called for test #7, result=Dice 1: 4, Dice 2: 3 ... Total: 7
+CALLBACK: gameResult() called for test #7, game outcome =WON
+Player: id= 1, name= The Gambler, bet amount= 100, roll result = Dice 1: 5, Dice 2: 6 ... Total: 11, game outcome = WON, total credit points= 1100
+You completed a successful roll with The Gambler's point balances updated correctly (1.5 marks)
+
+Test 08 - Test Outcome Callback Calls (1.5 mark)
+CALLBACK: playerRollOutcome() called for test #8, result=Dice 1: 6, Dice 2: 5 ... Total: 11
+CALLBACK: houseRollOutcome() called for test #8, result=Dice 1: 6, Dice 2: 1 ... Total: 7
+CALLBACK: gameResult() called for test #8, game outcome =WON
+Roll outcomes called once each for player and house: (1.0 mark)
+Game outcome called once only: (0.5 mark)
+
+The test harness score is: 8.5/ 8.5 marks. NOTE: 1.5 additional mark will be allocated based on callback console outputs.

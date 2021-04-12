@@ -1,0 +1,49 @@
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Shark, intermediate roll= Dice 1: 4, Dice 2: 5 ... Total: 9
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Shark, intermediate roll= Dice 1: 4, Dice 2: 3 ... Total: 7
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Shark, intermediate roll= Dice 1: 6, Dice 2: 3 ... Total: 9
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Shark, intermediate roll= Dice 1: 6, Dice 2: 2 ... Total: 8
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Shark, intermediate roll= Dice 1: 4, Dice 2: 5 ... Total: 9
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRollOutcome
+INFO: Player: The Shark, final roll state= Dice 1: 6, Dice 2: 3 ... Total: 9
+
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Roller, intermediate roll= Dice 1: 3, Dice 2: 4 ... Total: 7
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Roller, intermediate roll= Dice 1: 5, Dice 2: 3 ... Total: 8
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Roller, intermediate roll= Dice 1: 3, Dice 2: 4 ... Total: 7
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Roller, intermediate roll= Dice 1: 4, Dice 2: 4 ... Total: 8
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: The Roller, intermediate roll= Dice 1: 2, Dice 2: 1 ... Total: 3
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRollOutcome
+INFO: Player: The Roller, final roll state= Dice 1: 1, Dice 2: 5 ... Total: 6
+
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: House, intermediate roll= Dice 1: 2, Dice 2: 5 ... Total: 7
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: House, intermediate roll= Dice 1: 6, Dice 2: 6 ... Total: 12
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: House, intermediate roll= Dice 1: 6, Dice 2: 4 ... Total: 10
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: House, intermediate roll= Dice 1: 1, Dice 2: 3 ... Total: 4
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRoll
+INFO: Player: House, intermediate roll= Dice 1: 5, Dice 2: 3 ... Total: 8
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl playerRollOutcome
+INFO: Player: House, final roll state= Dice 1: 3, Dice 2: 3 ... Total: 6
+
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl gameResult
+INFO: Game Result: The Shark has WON
+
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.model.GameEngineCallbackImpl gameResult
+INFO: Game Result: The Roller has DREW
+
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 1, name= The Shark, bet amount= 10, roll result = Dice 1: 6, Dice 2: 3 ... Total: 9, game outcome = WON, total credit points= 110
+Mar 07, 2019 1:55:10 PM au.edu.rmit.cpt222.view.Client main
+INFO: Player: id= 2, name= The Roller, bet amount= 20, roll result = Dice 1: 1, Dice 2: 5 ... Total: 6, game outcome = DREW, total credit points= 150
